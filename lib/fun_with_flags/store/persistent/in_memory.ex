@@ -5,7 +5,7 @@ defmodule FunWithFlags.Store.Persistent.InMemory do
 
   @behaviour FunWithFlags.Store.Persistent
 
-  alias FunWithFlags.Store.Persistent.Ecto.Record
+  alias FunWithFlags.Store.Persistent.InMemory.Record
   alias FunWithFlags.{Config, Gate, Flag}
 
   def worker_spec do
