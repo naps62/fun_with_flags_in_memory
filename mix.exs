@@ -45,7 +45,7 @@ defmodule FunWithFlagsInMemory.MixProject do
         "MIT"
       ],
       links: %{
-        "GitHub" => "https://github.com/naps62/fun_with_flags"
+        "GitHub" => "https://github.com/naps62/fun_with_flags_in_memory"
       }
     ]
   end
