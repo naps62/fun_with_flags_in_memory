@@ -26,7 +26,7 @@ defmodule FunWithFlagsInMemory.MixProject do
     [
       {:ex_doc, "~> 0.19", only: :dev},
       {:ecto, "~> 3.0"},
-      {:fun_with_flags, "~> 1.4"}
+      {:fun_with_flags, ">= 1.4.0 and < 1.6.0"}
     ]
   end
 
